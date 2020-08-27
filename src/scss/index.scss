@@ -7,3 +7,14 @@
 @import "../../node_modules/bootstrap/scss/utilities";
 
 @import "../../node_modules/bootstrap/scss/carousel";
+
+body {
+    align-items: center;
+    background-color: #fcfcfc;
+    display: flex;
+    min-height: 100vh;
+}
+
+.carousel-inner {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
